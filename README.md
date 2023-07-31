@@ -1,5 +1,16 @@
 # Mission-Local-Liveblog-Adaptor
 
+[Release Notes](#release-notes)
+
+[Overview](#overview)
+
+[Procedure for converting liveblog](#procedure-for-converting-liveblog)
+
+## Release Notes
+
+1.0.0 Initial release
+
+## Overview
 The Mission Local website uses Liveblog24 to record blog entries as they are
 happening and store them in with an article. Once the recording is done readers
 of the article will see the most recent block of blog entries with an option to
