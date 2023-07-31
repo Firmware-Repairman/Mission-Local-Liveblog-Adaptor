@@ -24,8 +24,8 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-if (!class_exists("MissionLocalLiveblogAdapter")) {
-	class MissionLocalLiveblogAdapter {
+if (!class_exists("MissionLocalLiveblogAdaptor")) {
+	class MissionLocalLiveblogAdaptor {
 		function __construct() {
 			add_action( 'init', array( &$this, 'init_plugin' ));
 		}
