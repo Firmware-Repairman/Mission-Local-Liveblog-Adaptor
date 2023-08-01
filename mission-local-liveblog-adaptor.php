@@ -3,7 +3,7 @@
  * Plugin Name: Mission-Local-Liveblog-Adaptor
  * Plugin URI: https://github.com/Firmware-Repairman/Mission-Local-Liveblog-Adaptor
  * Description: Move live blog content from Liveblog24 servers to local post
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Craig Mautner
  * Author URI: https://firmware-repairman.pro/
  * License: GPL3
@@ -32,7 +32,7 @@ if (!class_exists("MissionLocalLiveblogAdaptor")) {
 
 		public function init_plugin() {
 			if ( !is_admin() ) {
-                $css_version = "1.0.0";
+                $css_version = "1.0.1";
                 wp_register_style( 'ml-lb24', plugins_url( '/style/ml-lb24.css', __FILE__), array(), $css_version);
                 wp_enqueue_style( 'ml-lb24' );
 		    }

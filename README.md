@@ -8,7 +8,25 @@
 
 ## Release Notes
 
-1.0.0 Initial release
+### 1.0.1 2023-08-01
+
+***New Features***
+
+***Changes***
+
+***Bug Fixes***
+- Renamed overall element from `<div id="LB24"` from `<div id="ML-LB">`. This removes any conflicts with
+unported Liveblog24 entries
+
+### 1.0.0 2023-07-31
+
+***New Features***
+- Initial release
+
+***Changes***
+
+***Bug Fixes***
+
 
 ## Overview
 The Mission Local website uses Liveblog24 to record blog entries as they are
@@ -69,6 +87,8 @@ look something like the following
     <script src="https://v.24liveblog.com/24.js"></script> -->
     <div id="LB24"><div data-v-b1e58480="" eid="3328021676610147955"><div data-v-b1e58480="" class="lb24-liveblog-container">...
     ```
+1. Rename the overall element you just pasted from `<div id="LB24">` to `<div id="ML-LB">`
+
 1. At the bottom of the pasted data you will find the white-label classes
     ```
     <p data-v-4cb0df0c="" class="lb24-liveblog-white-label" style="display: flex !important; align-items: center !important; opacity: 1 !important; visibility: visible !important; height: 24px !important;">
